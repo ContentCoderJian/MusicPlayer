@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal"
+    android:paddingLeft="6dp"
+    android:paddingRight="6dp"
+    android:paddingTop="3dp"
+    android:paddingBottom="3dp"
+     >
+
+    <TextView
+        android:id="@+id/tv_title"
+        android:layout_width="0dp"
+        android:layout_height="40dp"
+        android:gravity="center_vertical"
+        android:singleLine="true"
+        android:layout_weight="1"
+        android:layout_marginRight="5dp"
+        android:text="歌曲名称"
+        android:textColor="#276AB8" />
+
+    <TextView
+        android:id="@+id/tv_artist"
+        android:layout_width="60dp"
+        android:layout_gravity="right"
+        android:layout_height="40dp"
+        android:layout_below="@+id/tv_title"
+        android:gravity="center_vertical"
+        android:singleLine="true"
+        android:text="歌曲作者"
+        android:textColor="#B4CDE6"
+        android:textSize="12sp" />
+
+</LinearLayout>
